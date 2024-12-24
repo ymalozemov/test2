@@ -41,10 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/unityplastic.dll" />
-    <Analyzer Include="/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll" />
-    <Analyzer Include="/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll" />
-    <Analyzer Include="/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.31f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.31f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.31f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
@@ -425,18 +421,6 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.ext.nunit/net40/unity-custom/nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.visualscripting/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
@@ -887,9 +871,6 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
       <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.dll</HintPath>

@@ -41,10 +41,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/unityplastic.dll" />
-    <Analyzer Include="/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll" />
-    <Analyzer Include="/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll" />
-    <Analyzer Include="/Users/yaroslavmalozemov/RiderProjects/test5/Library/PackageCache/com.unity.collab-proxy/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.31f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.31f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.31f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
@@ -834,9 +830,6 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
       <HintPath>/Users/yaroslavmalozemov/RiderProjects/test5/Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.dll</HintPath>
