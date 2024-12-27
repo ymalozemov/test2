@@ -13,6 +13,7 @@ namespace Player
         private int _isRuningHash;
         private Rigidbody _rb; // Ссылка на компонент Rigidbody
         private float _timer;
+        private VirtualJoystick _joystick;
         
         void Start()
         {
@@ -22,15 +23,19 @@ namespace Player
             _animator = GetComponent<Animator>();
             _animator.SetBool(_isStandingHash, true);
             _timer = 0f;
+            _joystick = FindFirstObjectByType<VirtualJoystick>();
         }
         
         private void Update()
         {
             
+            if(!_joystick) return;
+            
             var moveHorizontal = Input.GetAxis("Horizontal"); // A/D или стрелки влево/вправо
             var moveVertical = Input.GetAxis("Vertical"); // W/S или стрелки вверх/вниз
+            Vector2 moveInput = _joystick.GetInput();
             var deltaSpeed = _moveSpeed * Time.deltaTime;
-            var movement = new Vector3(moveHorizontal, 0.0f, moveVertical).normalized * deltaSpeed;
+            var movement = new Vector3(moveInput.x, 0.0f, moveInput.y).normalized * deltaSpeed;
 
             transform.Translate(movement, Space.World);
             
