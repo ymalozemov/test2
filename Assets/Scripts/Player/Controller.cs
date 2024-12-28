@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Player
 {
-    public class PlayerMovement : MonoBehaviour
+    public class Controller : MonoBehaviour
     {
         private float _moveSpeed = 1f;
         private float _turnSpeed = 700f;
@@ -13,7 +13,7 @@ namespace Player
         private int _isRuningHash;
         private Rigidbody _rb; // Ссылка на компонент Rigidbody
         private float _timer;
-        private VirtualJoystick _joystick;
+        private Joystick.Controller _joystick;
         
         void Start()
         {
@@ -23,7 +23,7 @@ namespace Player
             _animator = GetComponent<Animator>();
             _animator.SetBool(_isStandingHash, true);
             _timer = 0f;
-            _joystick = FindFirstObjectByType<VirtualJoystick>();
+            _joystick = FindFirstObjectByType<Joystick.Controller>();
         }
         
         private void Update()

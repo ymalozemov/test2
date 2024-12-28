@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "R58M351KASD",
         "name": "com.UnityTechnologies.Mobile3DTemplate",
-        "processId": 32102,
+        "processId": 19011,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -66,6 +66,12 @@
             "deviceId": "R58M351KASD",
             "name": "com.UnityTechnologies.Mobile3DTemplate",
             "processId": 32102,
+            "exited": false
+        },
+        {
+            "deviceId": "R58M351KASD",
+            "name": "com.UnityTechnologies.Mobile3DTemplate",
+            "processId": 19011,
             "exited": false
         }
     ],
