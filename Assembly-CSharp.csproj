@@ -56,6 +56,7 @@
     <None Include="Assets/SineVFX/TranslucentCrystals/_SRP/!!!_ReadBeforeImport_!!!.txt" />
     <None Include="Assets/SineVFX/TranslucentCrystals/Crystal.shader" />
     <None Include="Assets/SineVFX/TranslucentCrystals/Resources/Shaders/Crystal.shader" />
+    <None Include="Assets/Hovl Studio/Magic effects pack/Demo scene/Readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.0.31f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
