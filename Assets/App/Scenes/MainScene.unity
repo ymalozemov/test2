@@ -504,8 +504,9 @@ GameObject:
   - component: {fileID: 586868153}
   - component: {fileID: 586868155}
   - component: {fileID: 586868154}
+  - component: {fileID: 586868156}
   m_Layer: 0
-  m_Name: Sphere Thickness
+  m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -620,7 +621,7 @@ ParticleSystem:
   emitterVelocityMode: 0
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -857,7 +858,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 7
+      scalar: 0
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5384,6 +5385,18 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &586868156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586868152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecb810cfb2684deeb8914f066c37e65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &612769250 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4132312772176831909, guid: 64b182395c0b6744a920c74bce3ece13, type: 3}
@@ -5481,6 +5494,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 684837414281441225, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
+      propertyPath: m_Name
+      value: Circle Thickness
+      objectReference: {fileID: 0}
     - target: {fileID: 1205021609740332654, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: 120.1704
@@ -5529,6 +5546,10 @@ PrefabInstance:
       propertyPath: looping
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1684423448260017312, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2955197092750843386, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
       propertyPath: looping
       value: 0
@@ -5538,8 +5559,12 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2955197092750843386, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955197092750843386, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2955197092750843386, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -5590,8 +5615,12 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3906390675509293155, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906390675509293155, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3906390675509293155, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -5646,8 +5675,12 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5135780860574305825, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5135780860574305825, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5135780860574305825, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -5693,6 +5726,10 @@ PrefabInstance:
       propertyPath: SizeModule.curve.maxCurve.m_Curve.Array.data[1].tangentMode
       value: 34
       objectReference: {fileID: 0}
+    - target: {fileID: 6296318069342208415, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
+      propertyPath: m_Name
+      value: Sphere Thickness
+      objectReference: {fileID: 0}
     - target: {fileID: 7033338938660550818, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -5722,6 +5759,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1289543790355709915, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
       insertIndex: -1
       addedObject: {fileID: 681257051}
+    - targetCorrespondingSourceObject: {fileID: 684837414281441225, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1656053499}
+    - targetCorrespondingSourceObject: {fileID: 6296318069342208415, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1261757640}
   m_SourcePrefab: {fileID: 100100000, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
 --- !u!4 &681257049 stripped
 Transform:
@@ -5742,7 +5785,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 681257050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09b1e65228da4ae5bb61a9d08bfd4b39, type: 3}
+  m_Script: {fileID: 11500000, guid: ecb810cfb2684deeb8914f066c37e65f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &710367195
@@ -5756,8 +5799,9 @@ GameObject:
   - component: {fileID: 710367196}
   - component: {fileID: 710367198}
   - component: {fileID: 710367197}
+  - component: {fileID: 710367199}
   m_Layer: 0
-  m_Name: Circle Thickness
+  m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5872,7 +5916,7 @@ ParticleSystem:
   emitterVelocityMode: 0
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -6109,7 +6153,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 7
+      scalar: 0
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -10636,6 +10680,18 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &710367199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710367195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecb810cfb2684deeb8914f066c37e65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -10875,6 +10931,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1261757639 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6296318069342208415, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
+  m_PrefabInstance: {fileID: 681257048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1261757640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261757639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09b1e65228da4ae5bb61a9d08bfd4b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1379747554
 GameObject:
   m_ObjectHideFlags: 0
@@ -11120,6 +11193,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   joystickHandle: {fileID: 1500240887}
   moveRange: 50
+--- !u!1 &1656053494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 684837414281441225, guid: b99922c2f59b1a542bdd06ae8bee47ae, type: 3}
+  m_PrefabInstance: {fileID: 681257048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1656053499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656053494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09b1e65228da4ae5bb61a9d08bfd4b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1812723988
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -3,81 +3,63 @@
     "m_SelectedProcess": {
         "deviceId": "R58M351KASD",
         "name": "com.UnityTechnologies.Mobile3DTemplate",
-        "processId": 26623,
+        "processId": 12816,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownProcessesForSerialization": [
         {
             "deviceId": "R58M351KASD",
+            "name": "com.UnityTechnologies.Mobile3DTemplate",
+            "processId": 24908,
+            "exited": true
+        },
+        {
+            "deviceId": "R58M351KASD",
+            "name": "com.UnityTechnologies.Mobile3DTemplate",
+            "processId": 25671,
+            "exited": true
+        },
+        {
+            "deviceId": "R58M351KASD",
+            "name": "com.UnityTechnologies.Mobile3DTemplate",
+            "processId": 9241,
+            "exited": true
+        },
+        {
+            "deviceId": "R58M351KASD",
+            "name": "com.UnityTechnologies.Mobile3DTemplate",
+            "processId": 9963,
+            "exited": true
+        },
+        {
+            "deviceId": "R58M351KASD",
             "name": "com.sec.android.app.launcher",
-            "processId": 1811,
+            "processId": 1937,
             "exited": false
         },
         {
             "deviceId": "R58M351KASD",
             "name": "com.UnityTechnologies.Mobile3DTemplate",
-            "processId": 30650,
-            "exited": true
-        },
-        {
-            "deviceId": "R58M351KASD",
-            "name": "com.UnityTechnologies.Mobile3DTemplate",
-            "processId": 11076,
-            "exited": true
-        },
-        {
-            "deviceId": "R58M351KASD",
-            "name": "com.UnityTechnologies.Mobile3DTemplate",
-            "processId": 20530,
-            "exited": true
-        },
-        {
-            "deviceId": "R58M351KASD",
-            "name": "com.UnityTechnologies.Mobile3DTemplate",
-            "processId": 21762,
-            "exited": true
-        },
-        {
-            "deviceId": "R58M351KASD",
-            "name": "com.UnityTechnologies.Mobile3DTemplate",
-            "processId": 23507,
+            "processId": 10916,
             "exited": false
         },
         {
             "deviceId": "R58M351KASD",
             "name": "com.UnityTechnologies.Mobile3DTemplate",
-            "processId": 27036,
+            "processId": 11758,
             "exited": false
         },
         {
             "deviceId": "R58M351KASD",
             "name": "com.UnityTechnologies.Mobile3DTemplate",
-            "processId": 28518,
+            "processId": 12103,
             "exited": false
         },
         {
             "deviceId": "R58M351KASD",
             "name": "com.UnityTechnologies.Mobile3DTemplate",
-            "processId": 31223,
-            "exited": false
-        },
-        {
-            "deviceId": "R58M351KASD",
-            "name": "com.UnityTechnologies.Mobile3DTemplate",
-            "processId": 32102,
-            "exited": false
-        },
-        {
-            "deviceId": "R58M351KASD",
-            "name": "com.UnityTechnologies.Mobile3DTemplate",
-            "processId": 19011,
-            "exited": false
-        },
-        {
-            "deviceId": "R58M351KASD",
-            "name": "com.UnityTechnologies.Mobile3DTemplate",
-            "processId": 26623,
+            "processId": 12816,
             "exited": false
         }
     ],

@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace App.Art.Environments.Shield.Scripts
 {
-    public class Thickness : MonoBehaviour
+    public class Level : MonoBehaviour
     {
         private ParticleSystem _particleSystem;
 
@@ -16,7 +16,7 @@ namespace App.Art.Environments.Shield.Scripts
         {
             var main = _particleSystem.main;
             var size = App.Managers.PlayerPrefsManager.LoadPlayerData();
-            main.startSize = size.shieldLevel + size.shieldThickness;
+            main.startSize = size.shieldLevel;
             _particleSystem.Play();
         }
     }

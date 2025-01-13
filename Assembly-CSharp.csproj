@@ -50,6 +50,7 @@
     <Compile Include="Assets/App/Scenes/Menu/Controller.cs" />
     <Compile Include="Assets/App/Scripts/Data/PlayerData.cs" />
     <Compile Include="Assets/App/Scripts/Camera/Controller.cs" />
+    <Compile Include="Assets/App/Art/Environments/Shield/Scripts/Level.cs" />
     <Compile Include="Assets/App/Scripts/Managers/PlayerPrefsManager.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/App/Scripts/Joystick/Controller.cs" />

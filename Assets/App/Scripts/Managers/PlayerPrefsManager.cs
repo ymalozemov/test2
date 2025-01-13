@@ -23,13 +23,11 @@ namespace App.Managers
             {
                 playerName = "Игрок1",
                 playerLevel = 1,
-                shieldLevel = 1,
-                shieldThickness = 1
+                shieldLevel = 16,
+                shieldThickness = 5
             };
 
-            var json = JsonUtility.ToJson(playerData);
-            PlayerPrefs.SetString("PlayerData", json);
-            PlayerPrefs.Save();
+            SavePlayerData(playerData);
         }
     }
 }
