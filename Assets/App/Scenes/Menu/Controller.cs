@@ -16,7 +16,18 @@ namespace App.Scenes.Menu
 
         void StartGame()
         {
+            _initMainScene();
+            _initGame();
+        }
+
+        private void _initMainScene()
+        {
             SceneManager.LoadScene(ScenesNames.Scenes.MainScene.ToString());
+        }
+
+        private void _initGame()
+        {
+            Managers.PlayerPrefsManager.InitPlayerData();
         }
     }
 }
