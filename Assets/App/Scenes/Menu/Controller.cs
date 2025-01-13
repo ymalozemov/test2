@@ -2,13 +2,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-namespace Scenes.Menu
+namespace App.Scenes.Menu
 {
     public class Main : MonoBehaviour
     {
         public Button startButton;
-
-        public Scenes.ScenesNames.Scenes sceneNames;
 
         void Start()
         {

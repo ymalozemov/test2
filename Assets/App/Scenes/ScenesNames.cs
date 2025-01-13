@@ -1,6 +1,4 @@
-using UnityEngine;
-
-namespace Scenes
+namespace App.Scenes
 {
     public class ScenesNames
     {

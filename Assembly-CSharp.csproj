@@ -46,21 +46,21 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.31f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/Joystick/Controller.cs" />
-    <Compile Include="Assets/Scripts/Managers/PlayerPrefsManager.cs" />
-    <Compile Include="Assets/Scripts/Camera/Controller.cs" />
-    <Compile Include="Assets/Scenes/ScenesNames.cs" />
+    <Compile Include="Assets/App/Art/Environments/Shield/Scripts/Thickness.cs" />
+    <Compile Include="Assets/App/Scenes/Menu/Controller.cs" />
+    <Compile Include="Assets/App/Scripts/Data/PlayerData.cs" />
+    <Compile Include="Assets/App/Scripts/Camera/Controller.cs" />
+    <Compile Include="Assets/App/Scripts/Managers/PlayerPrefsManager.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
-    <Compile Include="Assets/Art/Environments/Shield/Scripts/Thickness.cs" />
-    <Compile Include="Assets/Scripts/Player/Controller.cs" />
-    <Compile Include="Assets/Scripts/Data/PlayerData.cs" />
-    <Compile Include="Assets/Scenes/Menu/Controller.cs" />
+    <Compile Include="Assets/App/Scripts/Joystick/Controller.cs" />
+    <Compile Include="Assets/App/Scenes/ScenesNames.cs" />
+    <Compile Include="Assets/App/Scripts/Player/Controller.cs" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets/SineVFX/TranslucentCrystals/Resources/Shaders/SkyboxProceduralDesaturated.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets/SineVFX/TranslucentCrystals/Readme.txt" />
-    <None Include="Assets/Fantasy Forest Environment Free Sample/StandardNoCulling.shader" />
+    <None Include="Assets/_assets/Fantasy Forest Environment Free Sample/StandardNoCulling.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
     <None Include="Assets/SineVFX/TranslucentCrystals/_SRP/!!!_ReadBeforeImport_!!!.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
@@ -83,7 +83,7 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
-    <None Include="Assets/Hovl Studio/Magic effects pack/Demo scene/Readme.txt" />
+    <None Include="Assets/_assets/Hovl Studio/Magic effects pack/Demo scene/Readme.txt" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <Reference Include="UnityEngine">

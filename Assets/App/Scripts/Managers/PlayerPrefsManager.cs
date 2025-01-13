@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Managers
+namespace App.Managers
 {
     public static class PlayerPrefsManager
     {

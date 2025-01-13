@@ -1,4 +1,4 @@
-namespace Data
+namespace App.Data
 {
     [System.Serializable]
     public class PlayerData
